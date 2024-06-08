@@ -1,5 +1,5 @@
 build:
-	tailwindcss -i public/css/styles.css -o public/styles.css
+	tailwindcss -i public/styles.css -o public/styles.css
 	@templ generate view
 	@go build -o bin/fullstackgo main.go 
 

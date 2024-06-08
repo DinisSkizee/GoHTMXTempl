@@ -1,4 +1,4 @@
-module github.com/sikozonpc/fullstackgo
+module github.com/DinisSkizee/GoHTMXTempl
 
 go 1.21.7
 

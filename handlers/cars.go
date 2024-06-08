@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/DinisSkizee/GoHTMXTempl/store"
 	"github.com/gorilla/mux"
-	"github.com/sikozonpc/fullstackgo/store"
 )
 
 func (h *Handler) HandleListCars(w http.ResponseWriter, r *http.Request) {

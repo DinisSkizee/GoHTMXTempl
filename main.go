@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/DinisSkizee/GoHTMXTempl/handlers"
+	"github.com/DinisSkizee/GoHTMXTempl/store"
 	"github.com/gorilla/mux"
-	"github.com/sikozonpc/fullstackgo/handlers"
-	"github.com/sikozonpc/fullstackgo/store"
 )
 
 func main() {

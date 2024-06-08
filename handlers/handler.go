@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/sikozonpc/fullstackgo/store"
+	"github.com/DinisSkizee/GoHTMXTempl/store"
 )
 
 type Handler struct {
