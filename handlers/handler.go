@@ -5,11 +5,9 @@ import (
 )
 
 type Handler struct {
-	store *store.Storage
+	store *store.InMemoryStore
 }
 
-func New(store *store.Storage) *Handler {
-	return &Handler{
-		store: 		store,
-	}
+func New(store *store.InMemoryStore) *Handler {
+	return &Handler{store: store}
 }
